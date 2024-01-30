@@ -1,0 +1,139 @@
+.box {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 110px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.box1 {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 80px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #403e3d;
+    border-radius: 50px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper {
+    height: 50%;
+    margin: 70px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.wrapper h2 {
+    margin-top: 0;
+    color: #333;
+}
+.wrapper .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.wrapper .content {
+    justify-items: center;
+    text-align: center;
+    overflow: auto;
+}
+/*form*/
+
+.container1 {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+form label {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type="submit"] {
+    cursor: pointer;
+    width: 85%;
+    margin-left: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+
+}

@@ -1,0 +1,71 @@
+
+.editor {
+    font-family: Dubai light;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    float: left
+}
+.editor div{
+    font-weight: bold;
+}
+
+.button-box{
+    justify-content: center;
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+
+.toggle-btn1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.submit-btn1 {
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.submit-btn2 {
+    font-family: Dubai light;
+    width: 158%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.incorret {
+    color: #da0303;
+    font-size: small;
+}
+.corret {
+    color: #39d302;
+    font-size: small;
+}

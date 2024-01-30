@@ -1,0 +1,63 @@
+:root {
+    --dark-text: #f8fbff;
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #f0f0f0;
+    --light-text: #151426;
+    --light-btn: #9796f0;
+    --blue: #0000ff;
+    --white: #fff;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --font-family: consolas;
+}
+
+body {
+    place-items: center;
+    font-family: var(--font-family);
+    background: #f2f2fd;
+    overflow: hidden;
+}
+.container {
+    width: max-content;
+    height: max-content;
+    position: relative;
+    display: flex;
+    padding: 6% 0px 0px 0px;
+    justify-content: center ;
+    top: 20%;
+
+    right: 0%;
+    width: 100%;
+    height: 100%;
+}
+.center {
+    height: 500px;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 50px 0px 50px;
+    box-shadow: var(--shadow);
+
+}
+.center h1 {
+    font-family: Dubai light;
+    text-align: left;
+}
+
+.center span{
+    font-family: Dubai light;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.center a{
+    font-family: Dubai light;
+    text-align: left;
+    font-size: 18px;
+}
+.center div{
+    margin-top: 20px;
+}
+

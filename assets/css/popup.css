@@ -1,0 +1,335 @@
+.box{
+    width: 80%;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2{
+    font-family: "Dubai Light";
+}
+
+.box1{
+    width: 80%;
+    /*text-align: center;*/
+    /*margin-left: 100px;*/
+    /*padding: 10px 30px;*/
+    /*cursor: pointer;*/
+    /*display: block;*/
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #fa3b3b;
+    font-family: Dubai light;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button{
+    width: 50%;
+    margin-top: 9px;
+    margin-left: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+
+.hidden{
+    /*width: 0px;*/
+    /*height: 0px;*/
+    opacity: 0;
+    visibility: hidden;
+}
+
+.buttonPlan{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #9796f0;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+.button1{
+
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #ff3c3c;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+.button5{
+
+    width: 20%;
+    margin-left: 10px;
+    padding: 0px 0px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #ff3c3c;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    transition: all 0.3s ease-out;
+
+}
+.button3{
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #62c200;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button2{
+    width: 80%;
+    margin-left: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    /*float: left;*/
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #6b6a6a;
+    font-family: Dubai light;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    /*transition: all 0.3s ease-out;*/
+
+}
+
+#divSave{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: visible;
+
+}
+#divPriority{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+}
+#divCancel{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+}
+#divShowCode{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+/*.overlay{*/
+/*    visibility: visible;*/
+/*    opacity: 1;*/
+/*}*/
+/*.overlay:target{*/
+/*    visibility: visible;*/
+/*    opacity: 1;*/
+/*}*/
+.wrapper{
+    margin-top: 50px;
+    margin: 70px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 30%;
+    height: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.wrapper h2{
+    margin-top: 0;
+    color: #333;
+}
+.wrapper .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.wrapper .content{
+    max-height: 80%;
+    overflow: auto;
+    font-family: "Dubai Light";
+}
+.container1{
+    border-radius: 5px;
+
+    padding: 20px 0;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+input[type=text], textarea{
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    justify-content: left;
+    outline: none;
+    resize: vertical;
+}
+input[type=password], textarea{
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    justify-content: left;
+    outline: none;
+    resize: vertical;
+}
+input[type=number]{
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    justify-content: left;
+    outline: none;
+    resize: vertical;
+}
+input[type=email], textarea{
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    justify-content: left;
+    outline: none;
+    resize: vertical;
+}
+
+*:disabled {
+    font-family: Dubai light;
+    width: 100%;
+    padding: 10px 30px;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    align-items: center;
+    border: none;
+    background: #4e4e4e;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+#studentd{
+    background-color: #c4f8bc;
+}
+
